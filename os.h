@@ -80,7 +80,7 @@
 #include <signal.h>
 #include <curses.h>
 #include <sys/param.h>
-#include <sys/sysctl.h>
+
 #include <sys/wait.h>
 #include <sys/stat.h>
 #include <sys/ioctl.h>
@@ -98,7 +98,7 @@
 #elif defined (__NetBSD__)            /* N E T B S D */
 #include <stdio.h>
 #include <sys/param.h>
-#include <sys/sysctl.h>
+
 #include <stdlib.h>
 #include <stdarg.h>
 #include <unistd.h>
@@ -125,7 +125,7 @@
 #elif defined (__OpenBSD__) || defined (__MicroBSD__)           /* O P E N B S D */
 #include <stdio.h>
 #include <sys/param.h>
-#include <sys/sysctl.h>
+
 #include <stdlib.h>
 #include <stdarg.h>
 #include <unistd.h>
@@ -160,7 +160,7 @@
 #include <curses.h>
 #include <ifaddrs.h>
 #include <sys/param.h>
-#include <sys/sysctl.h>
+
 #include <sys/wait.h>
 #include <sys/stat.h>
 #include <sys/ioctl.h>
@@ -177,7 +177,7 @@
 #elif defined (__linux__)             /* L I N U X */
 #include <stdio.h>
 #include <sys/param.h>
-#include <sys/sysctl.h>
+
 #include <stdlib.h>
 #include <stdarg.h>
 #include <unistd.h>
@@ -239,7 +239,7 @@
 #include <signal.h>
 #include <curses.h>
 #include <sys/param.h>
-#include <sys/sysctl.h>
+
 #include <sys/wait.h>
 #include <sys/stat.h>
 #include <sys/ioctl.h>
